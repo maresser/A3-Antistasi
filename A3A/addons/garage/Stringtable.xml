@@ -423,6 +423,7 @@
       </Key>
       <Key ID="STR_HR_GRG_Feedback_toggleLock_limit">
         <Original>You have too many vehicles locked</Original>
+        <German>Du hast zu viele Fahrzeuge abgeschlossen</German>
       </Key>
       <Key ID="STR_HR_GRG_Generic_Air">
         <Original>Aircraft</Original>
