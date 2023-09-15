@@ -55,11 +55,6 @@ jobs:
           git push
 
 
-      - name: Switch to unstable
-        uses: actions/checkout@v4
-        with:
-          ref: unstable
-
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
@@ -69,7 +64,7 @@ jobs:
           committer: GitHub <noreply@github.com>
           author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
           signoff: false
-          branch: tolgee-update
+          branch: unstable
           delete-branch: false
           title: '[Example] Update report'
           body: |
