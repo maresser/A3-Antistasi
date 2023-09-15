@@ -3,7 +3,7 @@
   <Package name="A3-Antistasi core">
     <Container name="A3A_actions">
       <Key ID="STR_A3A_actions_restore_units">
-        <Original>Restore nearby unitsss</Original>
+        <Original>Restore nearby units</Original>
       </Key>
     </Container>
     <Container name="A3A_customHint">
