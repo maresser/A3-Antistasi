@@ -74,4 +74,4 @@ jobs:
             automated pr
           assignees: Bob-Murphy
           reviewers: Bob-Murphy
-          draft: false
+          draft: true
