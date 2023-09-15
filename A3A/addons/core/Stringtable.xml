@@ -496,6 +496,7 @@
       </Key>
       <Key ID="STR_A3A_base_vehicleBoxRestore_repaired">
         <Original>&lt;br/&gt; - repaired</Original>
+        <German>&lt;br/&gt; - repariert</German>
         <Spanish>&lt;br/&gt; - han sido reparados</Spanish>
         <Korean>&lt;br/&gt; - 수리되었습니다</Korean>
         <Russian>&lt;br/&gt; - отремонтирован(а)</Russian>
