@@ -49,7 +49,7 @@ jobs:
 
 
       - name: Switch to new branch
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           ref: tolgee-update
 
@@ -64,7 +64,7 @@ jobs:
 
 
       - name: Switch to unstable
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
         with:
           ref: unstable
 
