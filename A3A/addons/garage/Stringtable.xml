@@ -4,6 +4,7 @@
     <Container name="HR_GRG">
       <Key ID="STR_HR_Garage_Generic_capacity">
         <Original>Available space in garage</Original>
+        <German>Verfügbare Plätze in der Garage</German>
         <Italian>Spazio disponibile nel garage</Italian>
         <Spanish>Espacio disponible en Garaje</Spanish>
         <French>Espace disponible dans le garage</French>
