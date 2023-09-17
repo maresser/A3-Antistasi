@@ -174,13 +174,6 @@
       </Key>
       <Key ID="STR_A3A_garrison_header">
         <Original>Garrisonsssss</Original>
-        <German>Garnison</German>
-        <Spanish>Guarnición</Spanish>
-        <French>Garnison</French>
-        <Korean>주둔군</Korean>
-        <Russian>Гарнизон</Russian>
-        <Portuguese>Guarnição</Portuguese>
-        <Turkish>Garnizon</Turkish>
       </Key>
       <Key ID="STR_A3A_garrison_reached_limit">
         <Original>Garrison limit has reached, you can't add new units anymore.</Original>
