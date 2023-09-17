@@ -50,6 +50,6 @@ jobs:
           labels: |
             localisation
             automated pr
-          assignees: Bob-Murphy
-          reviewers: Bob-Murphy
+          assignees: maresser
+          reviewers: maresser
           draft: true
