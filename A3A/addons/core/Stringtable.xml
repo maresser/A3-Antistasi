@@ -5586,6 +5586,7 @@
       </Key>
       <Key ID="STR_A3A_Utility_Items_Feedback_Far">
         <Original>You're too far.</Original>
+        <German>Du bist zu weit entfernt.</German>
         <Italian>Sei troppo lontano</Italian>
         <Spanish>Estás muy lejos</Spanish>
         <French>Tu es trop loin</French>
@@ -5641,6 +5642,7 @@
       </Key>
       <Key ID="STR_A3A_Utility_Items_Name_fueldrum">
         <Original>Fuel Drum</Original>
+        <German>Benzinfass</German>
         <French>Baril de Carburant</French>
         <Russian>Бочка топлива</Russian>
         <Turkish>Yakıt Varili</Turkish>

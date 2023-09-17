@@ -480,6 +480,7 @@
       </Key>
       <Key ID="STR_HR_GRG_Generic_Boat">
         <Original>Ships</Original>
+        <German>Schiffe</German>
         <Italian>Barche</Italian>
         <Spanish>Embarcaciones</Spanish>
         <French>Navires</French>
@@ -963,6 +964,7 @@
       </Key>
       <Key ID="STR_HR_GRG_SourcePanel_Header">
         <Original>Sources:</Original>
+        <German>Quellen</German>
         <Italian>Fonti:</Italian>
         <Spanish>Fuentes:</Spanish>
         <French>Sources:</French>
