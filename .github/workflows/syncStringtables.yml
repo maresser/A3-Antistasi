@@ -18,12 +18,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Create Branch
-        uses: peterjgrainger/action-create-branch@v2.2.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          branch: tolgee-update
+      - name: Checkout
+        uses: actions/checkout@v3
+
 
       - name: Switch to new branch
         uses: actions/checkout@v4
@@ -43,27 +40,16 @@ jobs:
         run: antistasi-translation-sync -u "https://tolgee.targetingsnake.de" AUTO_ALL
 
 
-      - name: Commit files
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "synchronised Stringtables"
-          git push
-
-
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Automated Tolgee Update
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
-          branch: unstable
+          branch: tolgee-update
+          branch-suffix: timestamp
           delete-branch: false
-          title: '[Example] Update report'
+          title: 'Updated Stringtable files'
           body: |
             Automated Tolgee Update
           labels: |
